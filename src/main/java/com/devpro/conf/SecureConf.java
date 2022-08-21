@@ -55,7 +55,8 @@ public class SecureConf extends WebSecurityConfigurerAdapter {
 	 * trong database không.
 	 * @return
 	 */
-	@Bean public PasswordEncoder passwordEncoder() {
+	@Bean 
+	public PasswordEncoder passwordEncoder() {
 		BCryptPasswordEncoder encoder = new BCryptPasswordEncoder(16);
 		return encoder;
     }

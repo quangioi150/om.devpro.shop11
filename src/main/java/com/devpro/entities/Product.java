@@ -1,6 +1,10 @@
 package com.devpro.entities;
 
-import java.math.BigDecimal; 
+import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIdentityReference;
+import com.fasterxml.jackson.annotation.ObjectIdGenerators;
+
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -35,7 +39,11 @@ public class Product extends BaseEntity {
 
 	@Column(name = "seo", nullable = false)
 	private String seo;
-
+	@JsonIdentityInfo(generator = ObjectIdGenerators.PropertyGenerator.class, property = "id")
+	@JsonIdentityReference(alwaysAsId = true)
+	@ManyToOne
+	@JoinColumn(name = "collection_id" , nullable = true)
+	private Collection collection;
 	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "category_id")
 	private Category category;
@@ -58,7 +66,15 @@ public class Product extends BaseEntity {
 			removeProductImages(productImages);
 		}
 	}
-	
+
+	public Collection getCollection() {
+		return collection;
+	}
+
+	public void setCollection(Collection collection) {
+		this.collection = collection;
+	}
+
 	public String getTitle() {
 		return title;
 	}
