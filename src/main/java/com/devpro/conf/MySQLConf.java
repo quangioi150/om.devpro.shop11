@@ -24,7 +24,7 @@ public class MySQLConf{
         dataSourceConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
         dataSourceConfig.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/javaweb11?useUnicode=yes&characterEncoding=UTF-8");
         dataSourceConfig.setUsername("root");
-        dataSourceConfig.setPassword("123456");
+        dataSourceConfig.setPassword("Tranngocduong78910@gmail.com");
         return new HikariDataSource(dataSourceConfig);
     }
 	

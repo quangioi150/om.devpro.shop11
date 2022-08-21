@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 header-top-left">
-                        <a href="#"><i class="fas fa-envelope"></i> ngocquanK14@gmail.com</a>
+                        <a href="#"><i class="fas fa-envelope"></i> nhom2K14@gmail.com</a>
                         <a href="#"><i class="fas fa-phone-alt"></i> 0866419233</a>
                     </div>
                     <div class="col-xl-7 header-top-right">
@@ -114,7 +114,7 @@
                         </div>
                         <div class="col-6 relative">
                             <label for="password">Mật khẩu <span>*</span></label><br>
-                            <input type="password" id="password"  required><br><br>
+                            <input type="password" id="password"  required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"><br><br>
                             <i class="fas fa-eye absolute" onclick="showPassword()"></i>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                             }
                         }
                     </script>
-                    <button type="submit">Đăng ký</button>
+                    <a class="btn"><button class="register_btn" type="submit">Đăng ký</button></a>
                 </form>
             </div>
         </div>
@@ -169,7 +169,7 @@
                             <p>Email</p>
                         </div>
                         <div class="support-info">
-                            <p>ngocquanK14@gmail.com</p>
+                            <p>nhom2K14@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -221,7 +221,7 @@
                         <p><i class="fas fa-map-marker-alt"></i>&emsp;Tầng 6 - Tòa nhà LUXURY HOTEL - 132 Hoàng Quốc Việt,
                             Hà Nội, Vietnam</p>
                         <p><i class="fas fa-phone-alt"></i>&emsp;0866419233</p>
-                        <p><i class="fas fa-envelope"></i>&emsp;ngocquanK14@gmail.com</p>
+                        <p><i class="fas fa-envelope"></i>&emsp;nhom2K14@gmail.com</p>
                     </div>
                 </div>
             </div>

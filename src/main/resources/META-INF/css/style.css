@@ -1238,3 +1238,16 @@ a:hover{
     margin-bottom: 50px;
 }
 /* /customer-page */
+
+.forgot{
+    display: block;
+    float: right;
+}
+
+.register_btn{
+	background-color: #00A2D1;
+	color:#fff;	
+	padding:5px 10px;
+	border:none;
+	border-radius:2px;
+}

@@ -10,7 +10,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AIRORT HOTEL</title>
+    <title>NEW SHOP</title>
      <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -111,6 +111,7 @@
                                 <input type="checkbox"> Agree the terms and policy
                             </label>
                         </div>
+                        <a class="forgot" href="${pageContext.request.contextPath}/forgotpassword">Quên mật khẩu?</a><br>
                         <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Login</button>
                           </form>
                         <span><a href="${pageContext.request.contextPath}/register"> <button type="submit" class="btn btn-primary btn-flat m-b-30 m-t-30">Đăng ký</button></a></span>
@@ -156,7 +157,7 @@
                             <p>Email</p>
                         </div>
                         <div class="support-info">
-                            <p>NgocQuank14@gmail.com</p>
+                            <p>nhom2k14@gmail.com</p>
                         </div>
                     </div>
                 </div>

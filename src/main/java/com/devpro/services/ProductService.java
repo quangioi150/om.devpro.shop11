@@ -49,7 +49,7 @@ public class ProductService {
 				
 				// xoá ảnh cũ trên vật lí(host)
 				for(ProductImages _images : oldProductImages) {//D:\tai lieu\Java\Java_Traing\om.devpro.shop11
-					new File("D:\\tai lieu\\Java\\Java_Traing\\om.devpro.shop11\\images" + _images.getPath()).delete();
+					new File("E:\\Hoc_tap\\PMMNM\\BTL\\om.devpro.shop11\\images" + _images.getPath()).delete();
 				}
 				
 				// xoá ảnh trên database
@@ -65,7 +65,7 @@ public class ProductService {
 			for(MultipartFile productImage : productImages) {//D:\tai lieu\Java\Java_Traing\om.devpro.shop11
 				
 				// lưu vật lí
-				productImage.transferTo(new File("D:\\tai lieu\\Java\\Java_Traing\\om.devpro.shop11\\images" + productImage.getOriginalFilename()));
+				productImage.transferTo(new File("E:\\Hoc_tap\\PMMNM\\BTL\\om.devpro.shop11\\images" + productImage.getOriginalFilename()));
 				
 				ProductImages _productImages = new ProductImages();
 				_productImages.setPath(productImage.getOriginalFilename());
