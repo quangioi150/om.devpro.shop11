@@ -33,7 +33,7 @@
                             <span><i class="far fa-check-circle"></i></span>
                             <div>
                                 <h5>Cảm ơn bạn đã đặt hàng</h5>
-                                <p>Một email xác nhận đã được gửi tới ngocquanK14@gmail.com. Xin vui lòng kiểm tra
+                                <p>Một email xác nhận đã được gửi tới nhom2K14@gmail.com. Xin vui lòng kiểm tra
                                     email của bạn</p>
                             </div>
                         </div>
@@ -46,7 +46,7 @@
                             <ul>
                                 <li>NgocQuan</li>
                                 <li>hà noi - viet nam</li>
-                                <li>ngocquanK14@gmail.com</li>
+                                <li>mhom2K14@gmail.com</li>
                                 <li>0866419233</li>
 
                             </ul>

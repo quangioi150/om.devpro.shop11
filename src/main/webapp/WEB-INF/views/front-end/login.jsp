@@ -99,12 +99,12 @@
 						<!-- phải đặt đúng là username để spring-secure lấy được giá trị -->
                         <div class="form-group">
                             <label>User</label>
-                            <input type="User" name="username" class="form-control">
+                            <input type="User" name="username" required class="form-control">
                         </div>
                     
                         <div class="form-group">
                             <label>Password</label>
-                            <input type="password" name="password" class="form-control">
+                            <input type="password" name="password" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" class="form-control">
                         </div>
                         <div class="checkbox">
                             <label>
@@ -207,7 +207,7 @@
                          <p><img src="images/location.png"> ADDRESS:Tầng 6 - Tòa nhà LUXURY HOTEL - 132 Hoàng Quốc Việt,
                             Hà Nội, VietNam</p>
                         <p><i class="fas fa-phone-alt"></i>&emsp;0866419233</p>
-                        <p><i class="fas fa-envelope"></i>&emsp;NgocQuank14@gmail.com</p>
+                        <p><i class="fas fa-envelope"></i>&emsp;nhom2k14@gmail.com</p>
                     </div>
                 </div>
             </div>

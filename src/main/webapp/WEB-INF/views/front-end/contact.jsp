@@ -197,7 +197,7 @@
                         <p><i class="fas fa-map-marker-alt"></i>&emsp;Tầng 6 - Tòa nhà LUXURY HOTEL - 132 Hoàng Quốc Việt,
                             Hà Nội, Vietnam</p>
                         <p><i class="fas fa-phone-alt"></i>&emsp;0866419233</p>
-                        <p><i class="fas fa-envelope"></i>&emsp;ngocquanK14@gmail.com</p>
+                        <p><i class="fas fa-envelope"></i>&emsp;nhom2K14@gmail.com</p>
                     </div>
                 </div>
             </div>

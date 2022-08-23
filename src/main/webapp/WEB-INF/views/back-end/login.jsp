@@ -56,12 +56,12 @@
                     <form action="${pageContext.request.contextPath}/cai-nay-la-thuoc-tinh-action-trong-form-login" method="post">
                         <div class="form-group">
                             <label>User</label>
-                            <input type="User" name="username" class="form-control">
+                            <input type="User" name="username" required class="form-control">
                         </div>
                     
                         <div class="form-group">
                             <label>Password</label>
-                            <input type="password" name="password" class="form-control">
+                            <input type="password" name="password" required class="form-control">
                         </div>
                         <div class="checkbox">
                             <label>
