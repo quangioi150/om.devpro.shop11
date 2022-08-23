@@ -36,7 +36,7 @@ public class WebConf implements WebMvcConfigurer {
 		registry.addResourceHandler("/vendors/**").addResourceLocations("classpath:/META-INF/vendors/");
 		registry.addResourceHandler("/assets/**").addResourceLocations("classpath:/META-INF/assets/");
 		registry.addResourceHandler("/summernote/**").addResourceLocations("classpath:/META-INF/summernote/");
-		registry.addResourceHandler("/file/images/**").addResourceLocations("file:D:\\tai lieu\\Java\\Java_Traing\\om.devpro.shop11\\images\\");
+		registry.addResourceHandler("/file/images/**").addResourceLocations("file:D:\\om.devpro.shop11\\images\\");
 	}
 	
 }

@@ -84,7 +84,7 @@
             </div>
             <div class="form-search">
                 <h6>TÌM KIẾM - HOTEL</h6>
-                <form action="${pageContext.request.contextPath}/product" method="post">
+                <form action="${pageContext.request.contextPath}/product" method="get">
                     <input type="text" placeholder="Search..." name="keyword">
                     <button type="submit" <i class="fas fa-search"></i></button>
                 </form>

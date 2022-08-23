@@ -32,13 +32,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-5 header-top-left">
-                        <a href="#"><i class="fas fa-envelope"></i> NgocQuanK14@gmail.com</a>
+                        <a href="#"><i class="fas fa-envelope"></i> nhom2K14@gmail.com</a>
                         <a href="#"><i class="fas fa-phone-alt"></i> 0866419233</a>
                     </div>
                     <div class="col-xl-7 header-top-right">
                         <a href="${pageContext.request.contextPath}/search"><i class="fas fa-search"></i> Tìm kiếm sản phẩm</a>
-                        <a href="${pageContext.request.contextPath}/register"><i class="fas fa-user-plus"></i> Đăng ký</a>
-                        <a href="${pageContext.request.contextPath}/login"><i class="fas fa-user"></i> Đăng nhập</a>
+    
                     </div>
                 </div>
             </div>
@@ -60,13 +59,10 @@
                                     <li><a href="#">Sản phẩm mới</a></li>
                                     <li><a href="#">Sản phẩm yêu thích</a></li>
                                     <li><a href="#">Sản phẩm mang thương hiệu</a></li>
-                                    <li><a href="#">ROYAL</a></li>
-                                    <li><a href="#">BAHANA</a></li>
-                                    <li><a href="#">NOBITAL</a></li>
-                                    <li><a href="#">NEWSTYLE</a></li>
-                                    <li><a href="#">FASHIOM</a></li>
-                                    <li><a href="#">DECOX</a></li>
-                                    <li><a href="#">SHOJI</a></li>
+                                    <li><a href="#">NIKE</a></li>
+                                    <li><a href="#">CONVERSE</a></li>
+                                    <li><a href="#">ADIDAS</a></li>
+
                                 </ul>
                             </li>
                             <li><a href="${pageContext.request.contextPath}/about-us">GIỚI THIỆU</a></li>
@@ -135,7 +131,7 @@
                             <p>Email</p>
                         </div>
                         <div class="support-info">
-                            <p>ngocquanK14@gmail.com</p>
+                            <p>nhom2K14@gmail.com</p>
                         </div>
                     </div>
                 </div>
@@ -177,7 +173,7 @@
                         <p><i class="fas fa-map-marker-alt"></i>&emsp;Tầng 6 - Tòa nhà LUXURY HOTEL - 132 Hoàng Quốc Việt,
                             Hà Nội, Vietnam</p>
                         <p><i class="fas fa-phone-alt"></i>&emsp;0866419233</p>
-                        <p><i class="fas fa-envelope"></i>&emsp;ngocquanK14@gmail.com</p>
+                        <p><i class="fas fa-envelope"></i>&emsp;nhom2K14@gmail.com</p>
                     </div>
                 </div>
             </div>

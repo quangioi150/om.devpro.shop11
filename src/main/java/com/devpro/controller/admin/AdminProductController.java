@@ -77,7 +77,7 @@ public class AdminProductController extends BaseController {
        for(Email mail : emailRepo.findAll()) {
        message.setTo(mail.getEmail());
        message.setSubject("Test Simple Email");
-       message.setText("Hello, Im testing Simple Email");
+       message.setText("Hello, Thank you because follow NEW SHOP Website");
 
        // Send Message!
       

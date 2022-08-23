@@ -43,6 +43,7 @@ public class User extends BaseEntity implements UserDetails {
 		this.username = username;
 	}
 
+
 	public String getPassword() {
 		return password;
 	}

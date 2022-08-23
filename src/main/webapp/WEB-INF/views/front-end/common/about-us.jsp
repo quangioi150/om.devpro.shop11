@@ -84,22 +84,18 @@
             <div>
                 <h5>GIỚI THIỆU</h5>
                 <P><strong>I. SỨ MỆNH VÀ VAI TRÒ</strong></P>
-                <p>Một trong những startup công nghệ đầu tiên trong lĩnh vực du lịch bất động sản chúng tôi có sứ mệnh mang bản sắc Việt Nam vươn ra ngoài thế giới, tạo ra thương hiệu của người Việt phục vụ người Việt tạo ra công nghệ giúp việc du lịch trong nước hiện đại, thuận tiện và văn minh</p>
+                <p>Một trong những shop giày mới và phù hợp nhất với giới trẻ hiện nay</p>
                 <p>
-                    Vai trò của chúng tôi là phát triển nền du lịch bất động sản trong nước một cách bền vững gìn giữ được nét dân tộc Việt Nam , tạo ra thương hiệu cho người Việt.
+                    Vai trò của chúng tôi là đưa nhưng sản phẩm tốt nhất đến với khách hàng trẻ năng động, sáng tạo.
               </p>
                 <p><Strong>II. ƯU ĐIỂM VÀ ĐỊNH HƯỚNG TƯƠNG LAI CỦA CÔNG TY</Strong></p>
-                <p>Với mong muốn tạo ra một sản phẩm của người Việt phục vụ người Việt và vươn ra mạnh mẽ trên thi trường quốc tế, AIRPORT Hotel đã từng bước phát triển trong khu vực và mở rộng thị trường, 
-                   với bề dày kinh nghiệm trong lĩnh vực bất động sản du lịch, không chỉ mạnh về kinh doanh mà còn mạnh về công nghệ có nhiều
-                    tiềm năng phát triển, kết hợp với đội ngũ nhân viên trẻ, năng động và chuyên nghiệp tạo lên thế mạnh
-                    nòng cốt của công ty để thực hiện tốt các mục tiêu đề ra.</p>
-                <p>Hơn thế nữa, chúng tôi còn hợp tác với nhiều doanh nghiệp nước ngoài đi trước trong lĩnh vực công nghệ số theo hướng du lịch bất động sản như AGODA,LUXSTAY,... mang lại nhiều lợi thế cho công ty vươn mạnh mẽ ra thị trường quốc tế như NHẬT BẢN, HÀN QUỐC, MỸ...</p>
-                <p><strong>III. ĐỘI NGŨ NHÂN SỰ</strong></p>
+                <p>Với mong muốn tạo ra một trang thương mại điện tử mua sắp giày trực tuyến phổ biến cho giới trẻ sử dụng. Cập nhật xu hướng mới về các hãng giày nổi tiếng như ADIDAS,NIKE,CONVERSE.</p>
+                <p>Hơn thế nữa, chúng tôi còn hợp tác với nhiều nhãn hàng nổi bật trong việc bán giày tại Việt Nam</strong></p>
                 <p>Hội đồng Quản trị do Đại hội đồng cổ đông tín nhiệm bầu ra. Hội đồng quản trị là cơ quan quản trị
                     toàn bộ mọi hoạt động của công ty, các chiến lược, kế hoạch sản xuất và kinh doanh trong nhiệm kỳ
                     của mình</p>
                 <p>Đây không chỉ là công sức của một cá nhân mà là sự nỗ lực hoạt động của cả tập thể công ty, nhân viên và Ban lãnh đạo. Sự ủng hộ, đóng góp đánh giá của khách hàng là động lực giúp chúng tôi ngày một phát triển và hoàn thiện. </p>
-                <p>Mới đây, công ty được tặng bằng khen ý tưởng khởi nghiệp của Nhà nước và được vinh danh là 1 trong top 10 doanh nghiệp có doanh thu cao nhất cả nước</p>
+                <p>Mới đây, công ty được tặng bằng khen ý tưởng khởi nghiệp của Nhà nước và được vinh danh là 1 trong top 10 doanh nghiệp có doanh thu cao nhất về lĩnh vực giày dép.</p>
             </div>
         </div>
     </div>

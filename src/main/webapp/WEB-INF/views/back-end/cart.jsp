@@ -116,22 +116,7 @@
                         <button><i class="far fa-trash-alt"></i></button>
                     </div>
                 </div></c:forEach>
-              <!--    <div class="row cart-info">
-                    <div class="col-2 img">
-                        <img src="images/HN42.jpg" alt="" class="img-fluid">
-                    </div>
-                    <div class="col-3 name">NEWSTYLE Homestay</div>
-                    <div class="col-2 price">1.280.000/đêm</div>
-                    <div class="col-2 number">
-                        <input type="number" min="1" max="15" value="1">
-                    </div>
-                    <div class="col-2 prices">
-                        1.280.000
-                    </div>
-                    <div class="col-1 delete">
-                        <button><i class="far fa-trash-alt"></i></button>
-                    </div>
-                </div>-->
+              
             </div>
             <div class="pay">
                 <table>
