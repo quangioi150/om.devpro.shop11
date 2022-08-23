@@ -44,6 +44,11 @@ public class User extends BaseEntity implements UserDetails {
 	}
 
 
+	@Override
+	public Collection<? extends GrantedAuthority> getAuthorities() {
+		return null;
+	}
+
 	public String getPassword() {
 		return password;
 	}
@@ -72,10 +77,10 @@ public class User extends BaseEntity implements UserDetails {
 	 * trả về danh sách các roles của user.
 	 */
 	@SuppressWarnings("unchecked")
-	@Override
-	public Collection<? extends GrantedAuthority> getAuthorities() {
-		return (Collection<? extends GrantedAuthority>) roles;
-	}
+//	@Override
+//	public Collection<? extends GrantedAuthority> getAuthorities() {
+//		return (Collection<? extends GrantedAuthority>) roles;
+//	}
 
 	@Override
 	public boolean isAccountNonExpired() {
