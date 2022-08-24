@@ -22,9 +22,9 @@ public class MySQLConf{
 	@Bean(destroyMethod = "close") protected DataSource dataSource() {
         HikariConfig dataSourceConfig = new HikariConfig();
         dataSourceConfig.setDriverClassName("com.mysql.cj.jdbc.Driver");
-        dataSourceConfig.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/javaweb11?useUnicode=yes&characterEncoding=UTF-8");
+        dataSourceConfig.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/webshopthue?useUnicode=yes&characterEncoding=UTF-8");
         dataSourceConfig.setUsername("root");
-        dataSourceConfig.setPassword("123456");
+        dataSourceConfig.setPassword("sapassword");
         return new HikariDataSource(dataSourceConfig);
     }
 	

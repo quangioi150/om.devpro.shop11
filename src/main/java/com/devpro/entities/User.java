@@ -1,40 +1,75 @@
 package com.devpro.entities;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
+import java.util.stream.Collectors;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.FetchType;
-import javax.persistence.JoinColumn;
-import javax.persistence.JoinTable;
-import javax.persistence.ManyToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import javax.persistence.*;
+import java.time.LocalDateTime;
+import java.util.*;
+
 @Entity
-@Table(name = "tbl_users")
-public class User extends BaseEntity implements UserDetails {
-	private static final long serialVersionUID = -1956195527415323516L;
+@Table(	name = "user",
+		uniqueConstraints = {
+				@UniqueConstraint(columnNames = "username"),
+				@UniqueConstraint(columnNames = "email")
+		})
+public class User{
 
-	@Column(name = "username", length = 45, nullable = false)
-	private String username;
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="id", nullable=false, updatable=false)
+	private Long id;
 
-	@Column(name = "password", length = 100, nullable = false)
-	private String password;
-
-	@Column(name = "email", length = 45, nullable = false)
+	@Column(updatable = false, nullable = false)
 	private String email;
 
-	@ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-	@JoinTable(name = "tbl_users_roles",
-			  joinColumns = @JoinColumn(name = "user_id"), inverseJoinColumns = @JoinColumn(name = "role_id"))
-	private List<Role> roles = new ArrayList<Role>();
-	
+	@Column(updatable = false, nullable = false)
+	private String username;
+
+	private String password;
+
+	private boolean active;
+
+	@ManyToMany(fetch = FetchType.LAZY)
+	@JoinTable(	name = "user_roles",
+			joinColumns = @JoinColumn(name = "user_id"),
+			inverseJoinColumns = @JoinColumn(name = "role_id"))
+	private Set<Role> roles = new HashSet<>();
+
+	public User(String email, String username, String password, boolean active) {
+		this.email = email;
+		this.username = username;
+		this.password = password;
+		this.active = active;
+	}
+
+	public User() {
+	}
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
 	public String getUsername() {
 		return username;
 	}
@@ -51,49 +86,19 @@ public class User extends BaseEntity implements UserDetails {
 		this.password = password;
 	}
 
-	public String getEmail() {
-		return email;
+	public boolean isActive() {
+		return active;
 	}
 
-	public void setEmail(String email) {
-		this.email = email;
+	public void setActive(boolean active) {
+		this.active = active;
 	}
 
-	public List<Role> getRoles() {
+	public Set<Role> getRoles() {
 		return roles;
 	}
 
-	public void setRoles(List<Role> roles) {
+	public void setRoles(Set<Role> roles) {
 		this.roles = roles;
 	}
-
-	/**
-	 * trả về danh sách các roles của user.
-	 */
-	@SuppressWarnings("unchecked")
-	@Override
-	public Collection<? extends GrantedAuthority> getAuthorities() {
-		return (Collection<? extends GrantedAuthority>) roles;
-	}
-
-	@Override
-	public boolean isAccountNonExpired() {
-		return true;
-	}
-
-	@Override
-	public boolean isAccountNonLocked() {
-		return true;
-	}
-
-	@Override
-	public boolean isCredentialsNonExpired() {
-		return true;
-	}
-
-	@Override
-	public boolean isEnabled() {
-		return true;
-	}
-
 }

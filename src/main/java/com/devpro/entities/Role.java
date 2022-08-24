@@ -10,40 +10,42 @@ import javax.persistence.FetchType;
 import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
+import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
+
 @Entity
-@Table(name = "tbl_roles")
-public class Role extends BaseEntity {
-	@Column(name = "name", length = 45, nullable = false)
-	private String name;
+public class Role {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="id", nullable=false, updatable=false)
+	private Long id;
 
-	@Column(name = "description", length = 45, nullable = false)
-	private String description;
+	@Enumerated(EnumType.STRING)
+	@Column(length = 20)
+	private ERole name;
 
-	@ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER, mappedBy = "roles")
-	private List<User> users = new ArrayList<User>();
-	
-	public String getName() {
-		return name;
+	public Role() {
+
 	}
 
-	public void setName(String name) {
+	public Role(ERole name) {
 		this.name = name;
 	}
 
-	public String getDescription() {
-		return description;
+	public Long getId() {
+		return id;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public void setId(Long id) {
+		this.id = id;
 	}
 
-	public List<User> getUsers() {
-		return users;
+	public ERole getName() {
+		return name;
 	}
 
-	public void setUsers(List<User> users) {
-		this.users = users;
+	public void setName(ERole name) {
+		this.name = name;
 	}
-
 }
